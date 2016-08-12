@@ -1,11 +1,11 @@
 'use strict';
 
-var mp2t = require('../lib/m2ts'),
-    codecs = require('../lib/codecs'),
-    aac = require('../lib/aac'),
-    flv = require('../lib/flv'),
+var mp2t = require('../lib/m2ts/index.js'),
+    codecs = require('../lib/codecs/index.js'),
+    aac = require('../lib/aac/index.js'),
+    flv = require('../lib/flv/index.js'),
     id3Generator = require('./utils/id3-generator'),
-    mp4 = require('../lib/mp4'),
+    mp4 = require('../lib/mp4/index.js'),
     QUnit = require('qunit'),
     testSegment = require('./utils/test-segment'),
     mp4AudioProperties = require('../lib/mp4/transmuxer').AUDIO_PROPERTIES,

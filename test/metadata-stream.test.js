@@ -23,7 +23,7 @@
 var metadataStream, stringToInts, stringToCString, id3Tag, id3Frame, id3Generator, mp2t, QUnit,
     webworkify, metadataStreamTestWorker;
 
-mp2t = require('../lib/m2ts');
+mp2t = require('../lib/m2ts/index.js');
 QUnit = require('qunit');
 id3Generator = require('./utils/id3-generator');
 webworkify = require('webworkify');

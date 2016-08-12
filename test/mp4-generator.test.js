@@ -20,7 +20,7 @@
   throws(block, [expected], [message])
 */
 var
-  mp4 = require('../lib/mp4'),
+  mp4 = require('../lib/mp4/index.js'),
   QUnit = require('qunit'),
   validateMvhd, validateTrak, validateTkhd, validateMdia,
   validateMdhd, validateHdlr, validateMinf, validateDinf,

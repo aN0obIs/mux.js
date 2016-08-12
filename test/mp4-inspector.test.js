@@ -20,7 +20,7 @@
   throws(block, [expected], [message])
 */
 var
-  mp4 = require('../lib/mp4'),
+  mp4 = require('../lib/mp4/index.js'),
   mp4Helpers = require('./utils/mp4-helpers'),
   QUnit = require('qunit'),
   typeBytes = mp4Helpers.typeBytes,

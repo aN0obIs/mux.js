@@ -2,8 +2,8 @@
 
 var
   captionStream,
-  m2ts = require('../lib/m2ts'),
-  mp4 = require('../lib/mp4'),
+  m2ts = require('../lib/m2ts/index.js'),
+  mp4 = require('../lib/mp4/index.js'),
   QUnit = require('qunit'),
   sintelCaptions = require('./utils/sintel-captions'),
   multichannelCaptions = require('./utils/multi-channel-captions');

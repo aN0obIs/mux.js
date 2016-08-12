@@ -1,6 +1,6 @@
 var mp2t, metadataStream;
 
-mp2t = require('../lib/m2ts');
+mp2t = require('../lib/m2ts/index.js');
 metadataStream = new mp2t.MetadataStream();
 
 module.exports = function(self) {
