@@ -81,5 +81,24 @@
   },
   "dependencies": {
     "browserify-shim": "^3.8.12"
+  },
+  "jspm": {
+    "map": {
+      "./aac": "./aac/index",
+      "./codecs": "./codecs/index",
+      "./mp4": "./mp4/index",
+      "./flv": "./flv/index",
+      "./mp2t": "./mp2t/index",
+      "../aac": "../aac/index",
+      "../codecs": "../codecs/index",
+      "../mp4": "../mp4/index",
+      "../flv": "../flv/index",
+      "../mp2t": "../mp2t/index",
+      "../lib/aac": "../lib/aac/index",
+      "../lib/codecs": "../lib/codecs/index",
+      "../lib/mp4": "../lib/mp4/index",
+      "../lib/flv": "../lib/flv/index",
+      "../lib/mp2t": "../lib/mp2t/index"
+    }
   }
 }
