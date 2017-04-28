@@ -1,8 +1,11 @@
-# mux.js
+# mux.js [![Build Status](https://travis-ci.org/videojs/mux.js.svg?branch=master)](https://travis-ci.org/videojs/mux.js)
+
 
 Lightweight utilities for inspecting and manipulating video container formats.
 
-[![Build Status](https://travis-ci.org/videojs/mux.js.svg?branch=master)](https://travis-ci.org/videojs/mux.js)
+Lead Maintainer: Jon-Carlos Rivera [@imbcmdth](https://github.com/imbcmdth)
+
+Maintenance Status: Stable
 
 ## Diagram
 ![mux.js diagram](/docs/diagram.png)
@@ -41,7 +44,7 @@ transmuxer.on('data', function (segment) {
 Parse MP4s into javascript objects or a text representation for display or debugging:
 ```js
 // drop in a Uint8Array of an MP4:
-var parsed = muxjs.inspectMp4(bytes);
+var parsed = muxjs.mp4.tools.inspect(bytes);
 // dig into the boxes:
 console.log('The major brand of the first box:', parsed[0].majorBrand);
 // print out the structure of the MP4:
